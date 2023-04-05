@@ -1,0 +1,13 @@
+{
+    "name": "terapeak",
+    "description": "easy way to research ebay products",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "main.js"
+    }
+}
